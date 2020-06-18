@@ -10,7 +10,8 @@ class Person
     person.partner = self
   end
   class PartnerError <
-    StandardError
+    StandardError 
+  end
 
 end
 
